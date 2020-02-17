@@ -13,6 +13,53 @@
   }
 }
 
+@font-face {
+  font-family: 'Airbnb Cereal App Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Book'), url('./fonts/AirbnbCerealBook.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Airbnb Cereal App Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Light'), url('./fonts/AirbnbCerealLight.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Airbnb Cereal App Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Medium'), url('./fonts/AirbnbCerealMedium.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Airbnb Cereal App Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Bold'), url('./fonts/AirbnbCerealBold.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Airbnb Cereal App Extra Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Extra Bold'), url('./fonts/AirbnbCerealExtraBold.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Airbnb Cereal App Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Airbnb Cereal App Black'), url('./fonts/AirbnbCerealBlack.woff') format('woff');
+  }
+
 .container {
   display: flex;
   justify-content: center;
@@ -30,18 +77,17 @@
 }
 
 .title {
-  font-family: 'Airbnb Cereal App';
-  font-weight: bold;
+  font-family: 'Airbnb Cereal App Bold';
   font-size: 20px;
   margin-top: 10px;
 }
 
 .text {
-  font-family: 'Airbnb Cereal App';
+  font-family: 'Airbnb Cereal App Book';
 }
 
 .textDesc {
-  font-family: 'Airbnb Cereal App';
+  font-family: 'Airbnb Cereal App Book';
   width: 400px;
   margin-top: 20px;
   text-align: left;
@@ -72,7 +118,7 @@ button:focus {outline:0;}
   border: none;
   background-color: #fff;
   border-radius: 5px;
-  font-family: 'Airbnb Cereal App';
+  font-family: 'Airbnb Cereal App Book';
   margin: 10px;
   transition: 0.8s;
   cursor: pointer;
